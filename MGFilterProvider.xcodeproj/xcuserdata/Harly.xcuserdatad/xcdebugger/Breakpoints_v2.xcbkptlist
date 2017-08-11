@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFilterProvider/Source/MGTradeLogFilters/MGTradeFilterProvider.swift"
+            timestampString = "524069350.377374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "groupedTrades(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in MGFilterProvider):MGFilterProvider.MGTradeFilterProvider.(filterSection (from : Swift.Array&lt;MGFilterProvider.Tradable&gt;) -&gt; ()).(closure #2).(closure #1)"
+                  moduleName = "MGFilterProvider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Harly/Desktop/DevCenter/HarlyGitReferences/FilterProvider/MGFilterProvider/MGFilterProvider/Source/MGTradeLogFilters/MGTradeFilterProvider.swift"
+                  timestampString = "524069239.398048"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in MGFilterProvider):MGFilterProvider.MGTradeFilterProvider.(filterSection (from : Swift.Array&lt;MGFilterProvider.Tradable&gt;) -&gt; ()).(closure #2).(closure #1).(closure #1)"
+                  moduleName = "MGFilterProvider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Harly/Desktop/DevCenter/HarlyGitReferences/FilterProvider/MGFilterProvider/MGFilterProvider/Source/MGTradeLogFilters/MGTradeFilterProvider.swift"
+                  timestampString = "524069239.401016"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFilterProvider/Source/MGTradeLogFilters/MGTradeFilterProvider.swift"
+            timestampString = "524069350.377374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "groupedTrades(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFilterProvider/Source/MGTradeLogFilters/MGTradeFilterProvider.swift"
+            timestampString = "524069350.377374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "groupedTrades(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in MGFilterProvider):MGFilterProvider.MGTradeFilterProvider.(filterSection (from : Swift.Array&lt;MGFilterProvider.Tradable&gt;) -&gt; ()).(closure #2).(closure #1).(closure #2)"
+                  moduleName = "MGFilterProvider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Harly/Desktop/DevCenter/HarlyGitReferences/FilterProvider/MGFilterProvider/MGFilterProvider/Source/MGTradeLogFilters/MGTradeFilterProvider.swift"
+                  timestampString = "524068817.447225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in MGFilterProvider):MGFilterProvider.MGTradeFilterProvider.(filterSection (from : Swift.Array&lt;MGFilterProvider.Tradable&gt;) -&gt; ()).(closure #2).(closure #1).(closure #2).(closure #1)"
+                  moduleName = "MGFilterProvider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Harly/Desktop/DevCenter/HarlyGitReferences/FilterProvider/MGFilterProvider/MGFilterProvider/Source/MGTradeLogFilters/MGTradeFilterProvider.swift"
+                  timestampString = "524068817.457108"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MGFilterProvider/Source/MGTradeLogFilters/MGTradeFilterProvider.swift"
+            timestampString = "524069350.377374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "groupedTrades(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

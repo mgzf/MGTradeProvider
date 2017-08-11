@@ -1,0 +1,6 @@
+framework module Pods_MGFilterProvider {
+  umbrella header "Pods-MGFilterProvider-umbrella.h"
+
+  export *
+  module * { export * }
+}

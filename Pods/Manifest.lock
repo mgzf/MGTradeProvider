@@ -1,0 +1,12 @@
+PODS:
+  - MGArrayExtensions (0.0.6)
+
+DEPENDENCIES:
+  - MGArrayExtensions
+
+SPEC CHECKSUMS:
+  MGArrayExtensions: c02bc8e34006101e371fd9a5adeafea1b184a659
+
+PODFILE CHECKSUM: 3a2463245f941be8b61edfbb2936dc054d84a5a9
+
+COCOAPODS: 1.2.1

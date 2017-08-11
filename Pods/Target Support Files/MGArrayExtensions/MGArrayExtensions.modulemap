@@ -1,0 +1,6 @@
+framework module MGArrayExtensions {
+  umbrella header "MGArrayExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
