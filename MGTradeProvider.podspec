@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MGTradeProvider"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.license          = 'MIT License'
   s.summary          = "MGTradeProvider"
   s.description      = "MGTradeProviderMGTradeProviderMGTradeProviderMGTradeProvider"
@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files  = "MGFilterProvider/Source/**/*.swift"
+  s.dependency "MGArrayExtensions"
 end
