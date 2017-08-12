@@ -20,9 +20,9 @@ public protocol MGParentSonProvider
 }
 
 // MARK: -  Filter Provider extension
-extension MGParentSonProvider
+public extension MGParentSonProvider
 {
-    func parentGroup<Element : OneWay>(from items : [Element]) -> [Int : [Element]]
+    public func parentGroup<Element : OneWay>(from items : [Element]) -> [Int : [Element]]
     {
         //Group
         let groupedTrades = items.groupBy { (filterItem : Element) -> Int in

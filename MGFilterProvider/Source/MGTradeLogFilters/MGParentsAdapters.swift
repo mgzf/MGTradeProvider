@@ -20,7 +20,7 @@ public protocol OneWay : class
     func setSons(items : [OneWay])
 }
 
-extension OneWay
+public extension OneWay
 {
     public func setSons(items : [OneWay])
     {
