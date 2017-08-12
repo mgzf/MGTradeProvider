@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-  s.name             = "MGTradeProvider"
-  s.version          = "0.0.3"
+  s.name             = "MGParentSonProvider"
+  s.version          = "0.0.5"
   s.license          = 'MIT License'
-  s.summary          = "MGTradeProvider"
-  s.description      = "MGTradeProviderMGTradeProviderMGTradeProviderMGTradeProvider"
+  s.summary          = "MGParentSonProvider"
+  s.description      = "MGParentSonProviderMGParentSonProviderMGParentSonProvider"
   s.homepage         = "https://github.com/mgzf/MGTradeProvider.git"
 
   s.author           = { "Harly" => "magic_harly@hotmail.com" }
