@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGTradeFilter : Tradable
+class MGTradeFilter : OneWay
 {
     var path : Int = 0
     var parentId : Int = 0
@@ -16,15 +16,15 @@ class MGTradeFilter : Tradable
     var name : String = ""
     var type : Int = 0
     
-    var sons : [Tradable] = [Tradable]()
+    var sons : [OneWay] = [OneWay]()
 }
 
-class ViewController: UIViewController , MGTradeGroupProvider {
-
+class ViewController: UIViewController , MGParentSonProvider {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     @IBAction func tapped(_ sender: UIButton)
     {
         let trade1 = MGTradeFilter()
@@ -87,8 +87,8 @@ class ViewController: UIViewController , MGTradeGroupProvider {
         trade10.parentId = 9
         trade10.path = 3
         
-        groupedTrades(from: [trade1,trade2,trade3,trade4,trade5,trade6,trade7,trade8,trade9,trade10])
+        let _ = parentGroup(from: [trade1,trade2,trade3,trade4,trade5,trade6,trade7,trade8,trade9,trade10])
     }
-
+    
 }
 

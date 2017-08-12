@@ -9,22 +9,20 @@
 import UIKit
 
 // MARK: -  Trade 对象必须遵循
-protocol Tradable : class
+public protocol OneWay : class
 {
     var path : Int { get set }
     var parentId : Int { get set }
     var id : Int { get set }
-    var name : String { get set }
-    var type : Int { get set }
     
-    var sons : [Tradable] { get set }
+    var sons : [OneWay] { get set }
     
-    func setSons(items : [Tradable])
+    func setSons(items : [OneWay])
 }
 
-extension Tradable
+extension OneWay
 {
-    func setSons(items : [Tradable])
+    public func setSons(items : [OneWay])
     {
         sons = items
     }

@@ -12,8 +12,8 @@
 		474B2D1E1F3BEFAE00B1F4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474B2D1C1F3BEFAE00B1F4D0 /* Main.storyboard */; };
 		474B2D201F3BEFAE00B1F4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474B2D1F1F3BEFAE00B1F4D0 /* Assets.xcassets */; };
 		474B2D231F3BEFAE00B1F4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474B2D211F3BEFAE00B1F4D0 /* LaunchScreen.storyboard */; };
-		474B2D301F3BF05900B1F4D0 /* MGTradeGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B2D2F1F3BF05900B1F4D0 /* MGTradeGroupProvider.swift */; };
-		474B2D321F3C0DC000B1F4D0 /* MGFilterAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B2D311F3C0DC000B1F4D0 /* MGFilterAdapters.swift */; };
+		474B2D301F3BF05900B1F4D0 /* MGParentSonProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B2D2F1F3BF05900B1F4D0 /* MGParentSonProvider.swift */; };
+		474B2D321F3C0DC000B1F4D0 /* MGParentsAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B2D311F3C0DC000B1F4D0 /* MGParentsAdapters.swift */; };
 		495BBBFCACC017AB3AF18194 /* Pods_MGFilterProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB9CAEFC15BE7A7365F31D6 /* Pods_MGFilterProvider.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 		474B2D1F1F3BEFAE00B1F4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		474B2D221F3BEFAE00B1F4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		474B2D241F3BEFAE00B1F4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		474B2D2F1F3BF05900B1F4D0 /* MGTradeGroupProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGTradeGroupProvider.swift; sourceTree = "<group>"; };
-		474B2D311F3C0DC000B1F4D0 /* MGFilterAdapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGFilterAdapters.swift; sourceTree = "<group>"; };
+		474B2D2F1F3BF05900B1F4D0 /* MGParentSonProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGParentSonProvider.swift; sourceTree = "<group>"; };
+		474B2D311F3C0DC000B1F4D0 /* MGParentsAdapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGParentsAdapters.swift; sourceTree = "<group>"; };
 		7FB9CAEFC15BE7A7365F31D6 /* Pods_MGFilterProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGFilterProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		833DC21DD74FBC678BC59C32 /* Pods-MGFilterProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFilterProvider.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGFilterProvider/Pods-MGFilterProvider.release.xcconfig"; sourceTree = "<group>"; };
 		D5445AF35282A1D637E37D19 /* Pods-MGFilterProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFilterProvider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGFilterProvider/Pods-MGFilterProvider.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		474B2D2E1F3BF05900B1F4D0 /* MGTradeLogFilters */ = {
 			isa = PBXGroup;
 			children = (
-				474B2D2F1F3BF05900B1F4D0 /* MGTradeGroupProvider.swift */,
-				474B2D311F3C0DC000B1F4D0 /* MGFilterAdapters.swift */,
+				474B2D2F1F3BF05900B1F4D0 /* MGParentSonProvider.swift */,
+				474B2D311F3C0DC000B1F4D0 /* MGParentsAdapters.swift */,
 			);
 			path = MGTradeLogFilters;
 			sourceTree = "<group>";
@@ -234,10 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474B2D321F3C0DC000B1F4D0 /* MGFilterAdapters.swift in Sources */,
+				474B2D321F3C0DC000B1F4D0 /* MGParentsAdapters.swift in Sources */,
 				474B2D1B1F3BEFAE00B1F4D0 /* ViewController.swift in Sources */,
 				474B2D191F3BEFAE00B1F4D0 /* AppDelegate.swift in Sources */,
-				474B2D301F3BF05900B1F4D0 /* MGTradeGroupProvider.swift in Sources */,
+				474B2D301F3BF05900B1F4D0 /* MGParentSonProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

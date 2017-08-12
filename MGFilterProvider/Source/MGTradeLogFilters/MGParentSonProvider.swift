@@ -10,29 +10,29 @@ import UIKit
 import MGArrayExtensions
 
 // MARK: -  Trade对象Provider
-protocol MGTradeGroupProvider
+public protocol MGParentSonProvider
 {
     /// 分组找儿子方法
     ///
     /// - Parameter trades: 原始trades
     /// - Returns: 分组完了后的数据
-    func groupedTrades(from trades : [Tradable]) -> [Int : [Tradable]]
+    func parentGroup<Element : OneWay>(from items : [Element]) -> [Int : [Element]]
 }
 
 // MARK: -  Filter Provider extension
-extension MGTradeGroupProvider
+extension MGParentSonProvider
 {
-    func groupedTrades(from trades : [Tradable]) -> [Int : [Tradable]]
+    func parentGroup<Element : OneWay>(from items : [Element]) -> [Int : [Element]]
     {
         //Group
-        let groupedTrades = trades.groupBy { (filterItem : Tradable) -> Int in
+        let groupedTrades = items.groupBy { (filterItem : Element) -> Int in
             return filterItem.path
         }
         
         //Find son
-        var groupedResult = [Int : [Tradable]]()
+        var groupedResult = [Int : [Element]]()
         groupedTrades.forEach { (group) in
-
+            
             var items = group.items
             items.forEach({ (item) in
                 let sons = items.filter { $0.parentId == item.id }
@@ -47,6 +47,6 @@ extension MGTradeGroupProvider
             groupedResult[group.key] = items
         }
         
-        return groupedResult        
+        return groupedResult
     }
 }
