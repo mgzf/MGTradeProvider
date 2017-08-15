@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Nimble.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MGFilterProvider.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MGFilterProviderTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Quick.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,7 +32,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>ADE836599F3F3A7F87E042A7B5756118</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD7C8BF89FE8053D0A2A2D88BB49CF07</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E0A0626DBFC8B5AB53169F8202F15C70</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8D2536BCF252C706C88660EF0615237</key>
 		<dict>
 			<key>primary</key>
 			<true/>

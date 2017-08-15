@@ -31,22 +31,34 @@ public extension MGParentSonProvider
         
         //Find son
         var groupedResult = [Int : [Element]]()
+        
         groupedTrades.forEach { (group) in
             
-            var items = group.items
-            items.forEach({ (item) in
-                let sons = items.filter { $0.parentId == item.id }
-                item.setSons(items: sons)
-                
-                sons.forEach({ (trade) in
-                    let removedIndex = items.index(where: { $0.id == trade.id })
-                    items.remove(at: removedIndex!)
-                })
-            })
-            
-            groupedResult[group.key] = items
+            groupedResult[group.key] = assignSons(for: group.items)
         }
         
         return groupedResult
     }
+    
+    
+    /// 为items重新整理成嵌套的
+    ///
+    /// - Parameter oneWayItems: items
+    /// - Returns: results
+    func assignSons<Element : OneWay>(for oneWayItems :[Element]) -> [Element]
+    {
+        var items = oneWayItems
+        items.forEach({ (item) in
+            let sons = items.filter { $0.parentId == item.id }
+            item.setSons(items: sons)
+            
+            sons.forEach({ (trade) in
+                let removedIndex = items.index(where: { $0.id == trade.id })
+                items.remove(at: removedIndex!)
+            })
+        })
+        return items
+    }
 }
+
+

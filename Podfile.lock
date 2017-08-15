@@ -1,12 +1,18 @@
 PODS:
   - MGArrayExtensions (0.0.6)
+  - Nimble (7.0.1)
+  - Quick (1.1.0)
 
 DEPENDENCIES:
   - MGArrayExtensions
+  - Nimble
+  - Quick
 
 SPEC CHECKSUMS:
   MGArrayExtensions: c02bc8e34006101e371fd9a5adeafea1b184a659
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
 
-PODFILE CHECKSUM: 3a2463245f941be8b61edfbb2936dc054d84a5a9
+PODFILE CHECKSUM: 876be9536161284e29441824aa58bc0c46373694
 
 COCOAPODS: 1.2.1

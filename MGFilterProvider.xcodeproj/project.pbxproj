@@ -14,10 +14,23 @@
 		474B2D231F3BEFAE00B1F4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474B2D211F3BEFAE00B1F4D0 /* LaunchScreen.storyboard */; };
 		474B2D301F3BF05900B1F4D0 /* MGParentSonProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B2D2F1F3BF05900B1F4D0 /* MGParentSonProvider.swift */; };
 		474B2D321F3C0DC000B1F4D0 /* MGParentsAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B2D311F3C0DC000B1F4D0 /* MGParentsAdapters.swift */; };
+		478C88561F418C1000AF7EE8 /* MGFilterProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C88551F418C1000AF7EE8 /* MGFilterProviderTests.swift */; };
 		495BBBFCACC017AB3AF18194 /* Pods_MGFilterProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB9CAEFC15BE7A7365F31D6 /* Pods_MGFilterProvider.framework */; };
+		8BC863FF751ADA97C72C50BE /* Pods_MGFilterProviderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAF1CC093E3E00A2A72534B /* Pods_MGFilterProviderTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		478C88581F418C1000AF7EE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474B2D0D1F3BEFAE00B1F4D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474B2D141F3BEFAE00B1F4D0;
+			remoteInfo = MGFilterProvider;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		44A3299F2FFBD91D9E45489A /* Pods-MGFilterProviderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFilterProviderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGFilterProviderTests/Pods-MGFilterProviderTests.release.xcconfig"; sourceTree = "<group>"; };
 		474B2D151F3BEFAE00B1F4D0 /* MGFilterProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGFilterProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		474B2D181F3BEFAE00B1F4D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		474B2D1A1F3BEFAE00B1F4D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,8 +40,13 @@
 		474B2D241F3BEFAE00B1F4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474B2D2F1F3BF05900B1F4D0 /* MGParentSonProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGParentSonProvider.swift; sourceTree = "<group>"; };
 		474B2D311F3C0DC000B1F4D0 /* MGParentsAdapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGParentsAdapters.swift; sourceTree = "<group>"; };
+		478C88531F418C1000AF7EE8 /* MGFilterProviderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGFilterProviderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C88551F418C1000AF7EE8 /* MGFilterProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGFilterProviderTests.swift; sourceTree = "<group>"; };
+		478C88571F418C1000AF7EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FB9CAEFC15BE7A7365F31D6 /* Pods_MGFilterProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGFilterProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		833DC21DD74FBC678BC59C32 /* Pods-MGFilterProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFilterProvider.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGFilterProvider/Pods-MGFilterProvider.release.xcconfig"; sourceTree = "<group>"; };
+		8B3450BDA3DDA5D9B4EB272E /* Pods-MGFilterProviderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFilterProviderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGFilterProviderTests/Pods-MGFilterProviderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDAF1CC093E3E00A2A72534B /* Pods_MGFilterProviderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGFilterProviderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5445AF35282A1D637E37D19 /* Pods-MGFilterProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFilterProvider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGFilterProvider/Pods-MGFilterProvider.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +59,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		478C88501F418C1000AF7EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC863FF751ADA97C72C50BE /* Pods_MGFilterProviderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				7FB9CAEFC15BE7A7365F31D6 /* Pods_MGFilterProvider.framework */,
+				BDAF1CC093E3E00A2A72534B /* Pods_MGFilterProviderTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				474B2D171F3BEFAE00B1F4D0 /* MGFilterProvider */,
+				478C88541F418C1000AF7EE8 /* MGFilterProviderTests */,
 				474B2D161F3BEFAE00B1F4D0 /* Products */,
 				5A3AF44D2B7D5FEFBB05DFEA /* Pods */,
 				1A751F4C9E713629FFEACDE2 /* Frameworks */,
@@ -66,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				474B2D151F3BEFAE00B1F4D0 /* MGFilterProvider.app */,
+				478C88531F418C1000AF7EE8 /* MGFilterProviderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,11 +130,22 @@
 			path = MGTradeLogFilters;
 			sourceTree = "<group>";
 		};
+		478C88541F418C1000AF7EE8 /* MGFilterProviderTests */ = {
+			isa = PBXGroup;
+			children = (
+				478C88551F418C1000AF7EE8 /* MGFilterProviderTests.swift */,
+				478C88571F418C1000AF7EE8 /* Info.plist */,
+			);
+			path = MGFilterProviderTests;
+			sourceTree = "<group>";
+		};
 		5A3AF44D2B7D5FEFBB05DFEA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D5445AF35282A1D637E37D19 /* Pods-MGFilterProvider.debug.xcconfig */,
 				833DC21DD74FBC678BC59C32 /* Pods-MGFilterProvider.release.xcconfig */,
+				8B3450BDA3DDA5D9B4EB272E /* Pods-MGFilterProviderTests.debug.xcconfig */,
+				44A3299F2FFBD91D9E45489A /* Pods-MGFilterProviderTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -133,6 +173,27 @@
 			productReference = 474B2D151F3BEFAE00B1F4D0 /* MGFilterProvider.app */;
 			productType = "com.apple.product-type.application";
 		};
+		478C88521F418C1000AF7EE8 /* MGFilterProviderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478C885C1F418C1000AF7EE8 /* Build configuration list for PBXNativeTarget "MGFilterProviderTests" */;
+			buildPhases = (
+				585778D6A4ADC61EC3B8A752 /* [CP] Check Pods Manifest.lock */,
+				478C884F1F418C1000AF7EE8 /* Sources */,
+				478C88501F418C1000AF7EE8 /* Frameworks */,
+				478C88511F418C1000AF7EE8 /* Resources */,
+				9168B1CC3072AE919AB2C0B8 /* [CP] Embed Pods Frameworks */,
+				7C38360C1571F8B6B45740FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478C88591F418C1000AF7EE8 /* PBXTargetDependency */,
+			);
+			name = MGFilterProviderTests;
+			productName = MGFilterProviderTests;
+			productReference = 478C88531F418C1000AF7EE8 /* MGFilterProviderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,6 +208,12 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 966SKDK4CF;
 						ProvisioningStyle = Automatic;
+					};
+					478C88521F418C1000AF7EE8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 966SKDK4CF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 474B2D141F3BEFAE00B1F4D0;
 					};
 				};
 			};
@@ -164,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				474B2D141F3BEFAE00B1F4D0 /* MGFilterProvider */,
+				478C88521F418C1000AF7EE8 /* MGFilterProviderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +244,13 @@
 				474B2D231F3BEFAE00B1F4D0 /* LaunchScreen.storyboard in Resources */,
 				474B2D201F3BEFAE00B1F4D0 /* Assets.xcassets in Resources */,
 				474B2D1E1F3BEFAE00B1F4D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C88511F418C1000AF7EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +270,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGFilterProvider/Pods-MGFilterProvider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585778D6A4ADC61EC3B8A752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C38360C1571F8B6B45740FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGFilterProviderTests/Pods-MGFilterProviderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9168B1CC3072AE919AB2C0B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGFilterProviderTests/Pods-MGFilterProviderTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AF7D7D9DF1DD6F9F93246D79 /* [CP] Check Pods Manifest.lock */ = {
@@ -241,7 +361,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		478C884F1F418C1000AF7EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C88561F418C1000AF7EE8 /* MGFilterProviderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478C88591F418C1000AF7EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 474B2D141F3BEFAE00B1F4D0 /* MGFilterProvider */;
+			targetProxy = 478C88581F418C1000AF7EE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		474B2D1C1F3BEFAE00B1F4D0 /* Main.storyboard */ = {
@@ -386,6 +522,36 @@
 			};
 			name = Release;
 		};
+		478C885A1F418C1000AF7EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3450BDA3DDA5D9B4EB272E /* Pods-MGFilterProviderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MGFilterProviderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.testProvider.MGFilterProviderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGFilterProvider.app/MGFilterProvider";
+			};
+			name = Debug;
+		};
+		478C885B1F418C1000AF7EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A3299F2FFBD91D9E45489A /* Pods-MGFilterProviderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MGFilterProviderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.testProvider.MGFilterProviderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGFilterProvider.app/MGFilterProvider";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -406,6 +572,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		478C885C1F418C1000AF7EE8 /* Build configuration list for PBXNativeTarget "MGFilterProviderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C885A1F418C1000AF7EE8 /* Debug */,
+				478C885B1F418C1000AF7EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
