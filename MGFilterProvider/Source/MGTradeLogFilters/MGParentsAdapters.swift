@@ -11,6 +11,8 @@ import UIKit
 // MARK: -  Trade 对象必须遵循
 public protocol OneWay : class
 {
+    var groupId : Int { get }
+    
     var path : Int { get set }
     var parentId : Int { get set }
     var id : Int { get set }
@@ -26,5 +28,10 @@ public extension OneWay
     {
         sons = items
     }
+    
+    var groupId : Int {
+        return 0
+    }
+    
 }
 

@@ -26,7 +26,7 @@ public extension MGParentSonProvider
     {
         //Group
         let groupedTrades = items.groupBy { (filterItem : Element) -> Int in
-            return filterItem.path
+            return filterItem.groupId
         }
         
         //Find son
