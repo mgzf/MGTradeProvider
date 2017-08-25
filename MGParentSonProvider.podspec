@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MGParentSonProvider"
-  s.version          = "0.0.2"
+  s.version          = "0.0.8"
   s.license          = 'MIT License'
   s.summary          = "MGParentSonProvider"
   s.description      = "MGParentSonProviderMGParentSonProviderMGParentSonProvider"
