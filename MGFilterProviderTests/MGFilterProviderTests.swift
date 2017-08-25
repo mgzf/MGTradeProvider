@@ -157,10 +157,13 @@ class MGFilterProviderTests: QuickSpec , MGParentSonProvider
             })
         }
         
+        
     }
     
     fileprivate func mockSingleData() -> [MGTradeFilter]
     {
+
+        
         let trade6 = MGTradeFilter()
         trade6.id = 5
         trade6.name = "门卡押金"
@@ -190,6 +193,7 @@ class MGFilterProviderTests: QuickSpec , MGParentSonProvider
         trade10.name = "我是小儿子"
         trade10.parentId = 9
         trade10.path = 3
+        
         
         return [trade6,trade7,trade8,trade9,trade10]
     }

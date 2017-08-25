@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473969151F50146800C5DB85 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 473969141F50146800C5DB85 /* test.txt */; };
+		473969171F50160500C5DB85 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 473969161F50160500C5DB85 /* test.txt */; };
 		474B2D191F3BEFAE00B1F4D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B2D181F3BEFAE00B1F4D0 /* AppDelegate.swift */; };
 		474B2D1B1F3BEFAE00B1F4D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B2D1A1F3BEFAE00B1F4D0 /* ViewController.swift */; };
 		474B2D1E1F3BEFAE00B1F4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474B2D1C1F3BEFAE00B1F4D0 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		44A3299F2FFBD91D9E45489A /* Pods-MGFilterProviderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGFilterProviderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGFilterProviderTests/Pods-MGFilterProviderTests.release.xcconfig"; sourceTree = "<group>"; };
+		473969141F50146800C5DB85 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		473969161F50160500C5DB85 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		474B2D151F3BEFAE00B1F4D0 /* MGFilterProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGFilterProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		474B2D181F3BEFAE00B1F4D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		474B2D1A1F3BEFAE00B1F4D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 		474B2D171F3BEFAE00B1F4D0 /* MGFilterProvider */ = {
 			isa = PBXGroup;
 			children = (
+				473969161F50160500C5DB85 /* test.txt */,
 				474B2D2B1F3BEFF100B1F4D0 /* Source */,
 				474B2D181F3BEFAE00B1F4D0 /* AppDelegate.swift */,
 				474B2D1A1F3BEFAE00B1F4D0 /* ViewController.swift */,
@@ -133,6 +138,7 @@
 		478C88541F418C1000AF7EE8 /* MGFilterProviderTests */ = {
 			isa = PBXGroup;
 			children = (
+				473969141F50146800C5DB85 /* test.txt */,
 				478C88551F418C1000AF7EE8 /* MGFilterProviderTests.swift */,
 				478C88571F418C1000AF7EE8 /* Info.plist */,
 			);
@@ -243,6 +249,7 @@
 			files = (
 				474B2D231F3BEFAE00B1F4D0 /* LaunchScreen.storyboard in Resources */,
 				474B2D201F3BEFAE00B1F4D0 /* Assets.xcassets in Resources */,
+				473969171F50160500C5DB85 /* test.txt in Resources */,
 				474B2D1E1F3BEFAE00B1F4D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473969151F50146800C5DB85 /* test.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +588,7 @@
 				478C885B1F418C1000AF7EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

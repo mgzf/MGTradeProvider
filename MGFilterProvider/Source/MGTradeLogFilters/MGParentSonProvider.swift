@@ -52,12 +52,14 @@ public extension MGParentSonProvider
             let sons = items.filter { $0.parentId == item.id }
             item.setSons(items: sons)
             
+            print(item.id)
+            
             sons.forEach({ (trade) in
                 let removedIndex = items.index(where: { $0.id == trade.id })
                 items.remove(at: removedIndex!)
             })
         })
-        return items
+        return items.filter { $0.parentId <= 0 }
     }
 }
 
